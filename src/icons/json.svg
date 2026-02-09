@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="3" y="3" width="18" height="18" rx="2" fill="#000"/>
+  <text x="12" y="8" fill="white" font-family="monospace" font-size="8" text-anchor="middle">{</text>
+  <text x="8" y="14" fill="#61DAFB" font-family="monospace" font-size="6">"key"</text>
+  <text x="8" y="20" fill="#97C800" font-family="monospace" font-size="6">"value"</text>
+  <text x="16" y="14" fill="#FF6B6B" font-family="monospace" font-size="6">"id"</text>
+  <text x="16" y="20" fill="#4ECDC4" font-family="monospace" font-size="6">123</text>
+  <text x="12" y="22" fill="white" font-family="monospace" font-size="8" text-anchor="middle">}</text>
+</svg>

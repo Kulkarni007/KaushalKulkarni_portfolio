@@ -1,0 +1,38 @@
+{
+  "profileImage": "/images/efeeleprofile.webp",
+  "profileAlt": "Photo of Kaushal Kulkarni",
+  "profileLink": "/about-me",
+  "profileTitle": "Full Stack Developer",
+  "profileName": "Kaushal Kulkarni",
+  "github": "https://github.com/Kulkarni007",
+  "githubText": "Interested in collaboration?",
+  "portfolioImage": "/images/portfolio.webp",
+  "email": "kaushalkulkarni01@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/kaushal-kulkarni-ba5b34255/",
+  "instagram": "https://www.instagram.com/efeele.dev/",
+  "youtube": "https://www.youtube.com/@efeele",
+  "alias": "KPK",
+  "contactSectionTitle": "Let's build something together",
+  "contactSectionSubtitle": "Open to new opportunities and projects",
+  "contactSectionButtonText": "Get In Touch",
+  "contactSectionButtonIcon": "paperplane",
+  "techsTitle": "TECHNOLOGIES",
+  "instagramIconName": "instagram",
+  "youtubeIconName": "youtube",
+  "githubIconName": "github",
+  "linkedinIconName": "linkedin",
+  "emailIconName": "envelope",
+  "hobbies": [
+    "Traveling",
+    "Tea",
+    "Music",
+    "Movies",
+    "Board Games"
+  ],
+  "pageTitle": "Kaushal Kulkarni | Full Stack Developer",
+  "pageDescription": "Personal portfolio showcasing software development projects and technical skills",
+  "OGImage": {
+    "url": "/images/imagedefault.webp",
+    "alt": "Kaushal Kulkarni's portfolio website featuring software projects, technical skills, and contact information"
+  }
+}

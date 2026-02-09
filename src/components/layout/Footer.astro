@@ -1,0 +1,82 @@
+---
+import Social from "../ui/Social.astro";
+import { Icon } from "astro-icon/components";
+import { getCollection } from "astro:content";
+
+const [staticData] = await getCollection("staticData");
+const {
+  github,
+  alias,
+  instagram,
+  email,
+  youtube,
+  linkedin,
+  emailIconName,
+  youtubeIconName,
+  linkedinIconName,
+  instagramIconName,
+  githubIconName,
+} = staticData.data;
+---
+
+<footer
+  class="relative bottom-0 w-full px-4 py-8 font-medium text-blacktext dark:bg-transparent dark:border-b-2 dark:border-zinc-800 dark:text-zinc-300 max-lg:mt-3"
+  role="contentinfo"
+  aria-label="Site footer"
+>
+  <nav
+    class="mx-auto flex max-w-7xl flex-row items-center justify-between gap-4 text-xl max-xl:px-6 max-sm:flex-col"
+    aria-label="Footer navigation"
+  >
+    <div class="relative h-8 cursor-pointer">
+      <a href="/" aria-label="Return to homepage" class="flex items-center">
+        <img 
+          src="/images/logo.svg" 
+          alt="KPK Logo" 
+          class="h-8 w-auto transition-all hover:opacity-80 dark:opacity-90"
+        />
+      </a>
+    </div>
+    <div class="text-center">
+      <a
+        href={github}
+        class="flex items-center justify-center gap-3 text-base font-normal italic max-sm:text-sm"
+        aria-label="About the website development"
+        ><Icon name="code" aria-hidden="true" /> Developed by <strong
+          >{alias}</strong
+        >, with Astro</a
+      >
+    </div>
+    <div
+      class="flex items-center justify-center gap-5"
+      role="group"
+      aria-label="Social media links"
+    >
+      <Social
+        link={`mailto:${email}`}
+        iconName={emailIconName}
+        label={`Send email to ${email}`}
+      />
+      <Social
+        link={instagram}
+        iconName={instagramIconName}
+        label={`Visit ${alias} on Instagram`}
+      />
+      <Social
+        link={youtube}
+        iconName={youtubeIconName}
+        label={`Visit ${alias} on YouTube`}
+      />
+      <Social
+        link={github}
+        iconName={githubIconName}
+        label={`Visit ${alias} on GitHub`}
+      />
+      <Social
+        link={linkedin}
+        iconName={linkedinIconName}
+        label={`Visit ${alias} on LinkedIn`}
+      />
+    </div>
+  </nav>
+</footer>

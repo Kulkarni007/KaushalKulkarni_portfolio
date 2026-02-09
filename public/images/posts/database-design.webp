@@ -1,0 +1,87 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0F172A"/>
+  
+  <!-- Database Tables -->
+  <!-- Users Table -->
+  <rect x="50" y="50" width="150" height="120" rx="4" fill="#1E293B" stroke="#10B981" stroke-width="2"/>
+  <rect x="50" y="50" width="150" height="25" rx="4" fill="#10B981"/>
+  <text x="125" y="67" fill="white" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">users</text>
+  <text x="60" y="95" fill="#F59E0B" font-family="monospace" font-size="10">id (PK)</text>
+  <text x="60" y="110" fill="#60A5FA" font-family="monospace" font-size="10">name</text>
+  <text x="60" y="125" fill="#60A5FA" font-family="monospace" font-size="10">email</text>
+  <text x="60" y="140" fill="#60A5FA" font-family="monospace" font-size="10">created_at</text>
+  <text x="60" y="155" fill="#A78BFA" font-family="monospace" font-size="10">🔑 idx_email</text>
+  
+  <!-- Orders Table -->
+  <rect x="250" y="50" width="150" height="135" rx="4" fill="#1E293B" stroke="#10B981" stroke-width="2"/>
+  <rect x="250" y="50" width="150" height="25" rx="4" fill="#10B981"/>
+  <text x="325" y="67" fill="white" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">orders</text>
+  <text x="260" y="95" fill="#F59E0B" font-family="monospace" font-size="10">id (PK)</text>
+  <text x="260" y="110" fill="#EF4444" font-family="monospace" font-size="10">user_id (FK)</text>
+  <text x="260" y="125" fill="#60A5FA" font-family="monospace" font-size="10">total</text>
+  <text x="260" y="140" fill="#60A5FA" font-family="monospace" font-size="10">status</text>
+  <text x="260" y="155" fill="#60A5FA" font-family="monospace" font-size="10">created_at</text>
+  <text x="260" y="170" fill="#A78BFA" font-family="monospace" font-size="10">🔑 idx_user_date</text>
+  
+  <!-- Products Table -->
+  <rect x="450" y="50" width="150" height="120" rx="4" fill="#1E293B" stroke="#10B981" stroke-width="2"/>
+  <rect x="450" y="50" width="150" height="25" rx="4" fill="#10B981"/>
+  <text x="525" y="67" fill="white" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">products</text>
+  <text x="460" y="95" fill="#F59E0B" font-family="monospace" font-size="10">id (PK)</text>
+  <text x="460" y="110" fill="#60A5FA" font-family="monospace" font-size="10">name</text>
+  <text x="460" y="125" fill="#60A5FA" font-family="monospace" font-size="10">price</text>
+  <text x="460" y="140" fill="#60A5FA" font-family="monospace" font-size="10">stock</text>
+  <text x="460" y="155" fill="#A78BFA" font-family="monospace" font-size="10">🔑 idx_name</text>
+  
+  <!-- Order Items Junction Table -->
+  <rect x="250" y="220" width="150" height="105" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="250" y="220" width="150" height="25" rx="4" fill="#F59E0B"/>
+  <text x="325" y="237" fill="white" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">order_items</text>
+  <text x="260" y="265" fill="#F59E0B" font-family="monospace" font-size="10">order_id (FK)</text>
+  <text x="260" y="280" fill="#F59E0B" font-family="monospace" font-size="10">product_id (FK)</text>
+  <text x="260" y="295" fill="#60A5FA" font-family="monospace" font-size="10">quantity</text>
+  <text x="260" y="310" fill="#F59E0B" font-family="monospace" font-size="10">🔑 PK (order,product)</text>
+  
+  <!-- Relationships -->
+  <!-- Users to Orders -->
+  <path d="M 200 125 L 250 125" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Orders to Order Items -->
+  <path d="M 325 185 L 325 220" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Products to Order Items -->
+  <path d="M 450 125 L 400 125 L 400 272" stroke="#10B981" stroke-width="2"/>
+  <path d="M 400 272 L 400 272" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10B981"/>
+    </marker>
+  </defs>
+  
+  <!-- Relationship Labels -->
+  <text x="225" y="115" fill="#64748B" font-family="Arial" font-size="9">1:N</text>
+  <text x="335" y="205" fill="#64748B" font-family="Arial" font-size="9">1:N</text>
+  <text x="430" y="200" fill="#64748B" font-family="Arial" font-size="9">M:N</text>
+  
+  <!-- Performance Metrics Box -->
+  <rect x="620" y="50" width="160" height="180" rx="4" fill="#1E293B" stroke="#60A5FA" stroke-width="1"/>
+  <text x="700" y="70" fill="#60A5FA" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Optimization Tips</text>
+  <text x="630" y="95" fill="#10B981" font-family="Arial" font-size="10">✓ Proper Indexing</text>
+  <text x="630" y="115" fill="#10B981" font-family="Arial" font-size="10">✓ Normalization</text>
+  <text x="630" y="135" fill="#10B981" font-family="Arial" font-size="10">✓ Foreign Keys</text>
+  <text x="630" y="155" fill="#F59E0B" font-family="Arial" font-size="10">⚠ Avoid N+1 Queries</text>
+  <text x="630" y="175" fill="#F59E0B" font-family="Arial" font-size="10">⚠ Use Pagination</text>
+  <text x="630" y="195" fill="#EF4444" font-family="Arial" font-size="10">✗ No SELECT *</text>
+  <text x="630" y="215" fill="#EF4444" font-family="Arial" font-size="10">✗ No Circular Refs</text>
+  
+  <!-- Query Example -->
+  <rect x="50" y="350" width="550" height="40" rx="4" fill="#1E293B"/>
+  <text x="60" y="365" fill="#10B981" font-family="monospace" font-size="10">-- Optimized Query with JOIN</text>
+  <text x="60" y="380" fill="#64748B" font-family="monospace" font-size="9">SELECT u.name, o.total FROM orders o JOIN users u ON o.user_id = u.id WHERE o.status = 'pending';</text>
+  
+  <!-- Title -->
+  <text x="400" y="25" fill="#F1F5F9" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Database Design Schema & Best Practices</text>
+</svg>

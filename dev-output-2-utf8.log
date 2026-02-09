@@ -1,0 +1,651 @@
+﻿
+> site@0.0.1 dev
+> astro dev
+
+12:36:24 [types] Generated 82ms
+12:36:26 [content] Syncing content
+12:36:26 [content] Synced content
+12:36:26 [vite] Port 4321 is in use, trying another one...
+12:36:26 [vite] Port 4322 is in use, trying another one...
+12:36:26 [vite] Port 4323 is in use, trying another one...
+12:36:26 [vite] Port 4324 is in use, trying another one...
+12:36:26 [vite] Port 4325 is in use, trying another one...
+12:36:26 [vite] Port 4326 is in use, trying another one...
+12:36:26 [vite] Port 4327 is in use, trying another one...
+12:36:26 [vite] Port 4328 is in use, trying another one...
+12:36:26 [vite] Port 4329 is in use, trying another one...
+12:36:26 [vite] Port 4330 is in use, trying another one...
+12:36:26 [vite] Port 4331 is in use, trying another one...
+12:36:26 [vite] Port 4332 is in use, trying another one...
+12:36:26 [vite] Port 4333 is in use, trying another one...
+12:36:26 [vite] Port 4334 is in use, trying another one...
+12:36:26 [vite] Port 4335 is in use, trying another one...
+
+ astro  v5.6.1 ready in 4567 ms
+
+Γöâ Local    http://localhost:4336/
+Γöâ Network  use --host to expose
+
+12:36:26 watching for file changes...
+node.exe : Removing 
+unexpected style on 
+"svg": flex
+At C:\Program Files\n
+odejs\npm.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Removin   
+ g unexpected sty    
+le on "svg": fle    
+x:String) [], Re    
+moteException
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Removing unexpected 
+style on "svg": flex
+Removing unexpected 
+style on "svg": flex
+12:36:56 [astro-icon] Loaded icons from src/icons
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:36:58 [200] / 1522ms
+12:36:59 [watch] dev-output-2.log
+12:36:59 [watch] dev-output-2.log
+12:36:59 [watch] dev-output-2.log
+12:36:59 [watch] dev-output-2.log
+12:36:59 [404] /.well-known/appspecific/com.chrome.devtools.json 146ms
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:00 [200] / 168ms
+12:37:00 [watch] dev-output-2.log
+12:37:00 [watch] dev-output-2.log
+12:37:00 [watch] dev-output-2.log
+12:37:00 [watch] dev-output-2.log
+12:37:00 [watch] dev-output-2.log
+12:37:00 [watch] dev-output-2.log
+12:37:00 [watch] dev-output-2.log
+12:37:00 [watch] dev-output-2.log
+12:37:01 [watch] dev-output-2.log
+12:37:01 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:03 [200] / 159ms
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:04 [watch] dev-output-2.log
+12:37:05 [watch] dev-output-2.log
+12:37:05 [watch] dev-output-2.log
+12:37:05 [404] /.well-known/appspecific/com.chrome.devtools.json 166ms
+12:37:05 [watch] dev-output-2.log
+12:37:05 [watch] dev-output-2.log
+12:37:05 [watch] dev-output-2.log
+12:37:05 [watch] dev-output-2.log
+12:37:06 [watch] dev-output-2.log
+12:37:06 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:06 [watch] dev-output-2.log
+12:37:06 [watch] dev-output-2.log
+12:37:06 [200] / 548ms
+12:37:06 [watch] dev-output-2.log
+12:37:06 [watch] dev-output-2.log
+12:37:08 [404] /.well-known/appspecific/com.chrome.devtools.json 92ms
+12:37:08 [404] /.well-known/appspecific/com.chrome.devtools.json 12ms
+12:37:10 [watch] dev-output-2.log
+12:37:10 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:10 [200] / 77ms
+12:37:10 [watch] dev-output-2.log
+12:37:10 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+12:37:11 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:12 [watch] dev-output-2.log
+12:37:12 [watch] dev-output-2.log
+12:37:12 [200] / 703ms
+12:37:12 [404] /.well-known/appspecific/com.chrome.devtools.json 445ms
+12:37:12 [watch] dev-output-2.log
+12:37:12 [watch] dev-output-2.log
+12:37:12 [watch] dev-output-2.log
+12:37:12 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+12:37:13 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:13 [200] / 324ms
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:14 [404] /.well-known/appspecific/com.chrome.devtools.json 633ms
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:14 [watch] dev-output-2.log
+12:37:15 [watch] dev-output-2.log
+12:37:15 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:15 [watch] dev-output-2.log
+12:37:15 [watch] dev-output-2.log
+12:37:15 [200] / 565ms
+12:37:15 [404] /.well-known/appspecific/com.chrome.devtools.json 291ms
+12:37:15 [watch] dev-output-2.log
+12:37:15 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+12:37:16 [404] /.well-known/appspecific/com.chrome.devtools.json 170ms
+12:37:16 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:16 [watch] dev-output-2.log
+12:37:16 [watch] dev-output-2.log
+12:37:17 [200] / 523ms
+12:37:17 [watch] dev-output-2.log
+12:37:17 [watch] dev-output-2.log
+12:37:17 [watch] dev-output-2.log
+12:37:17 [watch] dev-output-2.log
+12:37:17 [watch] dev-output-2.log
+12:37:17 [watch] dev-output-2.log
+12:37:17 [watch] dev-output-2.log
+12:37:17 [watch] dev-output-2.log
+12:37:18 [404] /.well-known/appspecific/com.chrome.devtools.json 139ms
+12:37:18 [watch] dev-output-2.log
+12:37:18 [watch] dev-output-2.log
+12:37:18 [watch] dev-output-2.log
+12:37:18 [watch] dev-output-2.log
+12:37:18 [watch] dev-output-2.log
+12:37:18 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:18 [watch] dev-output-2.log
+12:37:18 [watch] dev-output-2.log
+12:37:18 [200] / 532ms
+12:37:19 [watch] dev-output-2.log
+12:37:19 [watch] dev-output-2.log
+12:37:19 [watch] dev-output-2.log
+12:37:19 [watch] dev-output-2.log
+12:37:19 [watch] dev-output-2.log
+12:37:19 [watch] dev-output-2.log
+12:37:19 [watch] dev-output-2.log
+12:37:19 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:20 [200] / 163ms
+12:37:20 [watch] dev-output-2.log
+12:37:20 [watch] dev-output-2.log
+12:37:20 [watch] dev-output-2.log
+12:37:20 [watch] dev-output-2.log
+12:37:21 [watch] dev-output-2.log
+12:37:21 [watch] dev-output-2.log
+12:37:21 [watch] dev-output-2.log
+12:37:21 [watch] dev-output-2.log
+12:37:21 [watch] dev-output-2.log
+12:37:21 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:21 [watch] dev-output-2.log
+12:37:21 [watch] dev-output-2.log
+12:37:21 [200] / 468ms
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+12:37:22 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:23 [200] / 155ms
+12:37:24 [watch] dev-output-2.log
+12:37:24 [watch] dev-output-2.log
+12:37:24 [watch] dev-output-2.log
+12:37:24 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:26 [200] / 126ms
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:26 [watch] dev-output-2.log
+12:37:27 [watch] dev-output-2.log
+12:37:27 [watch] dev-output-2.log
+12:37:27 [404] /.well-known/appspecific/com.chrome.devtools.json 282ms
+12:37:27 [watch] dev-output-2.log
+12:37:27 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:27 [200] / 191ms
+12:37:27 [watch] dev-output-2.log
+12:37:27 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+12:37:28 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:29 [200] / 143ms
+12:37:30 [watch] dev-output-2.log
+12:37:30 [watch] dev-output-2.log
+12:37:30 [watch] dev-output-2.log
+12:37:30 [watch] dev-output-2.log
+12:37:30 [watch] dev-output-2.log
+12:37:30 [watch] dev-output-2.log
+12:37:30 [watch] dev-output-2.log
+12:37:30 [watch] dev-output-2.log
+12:37:31 [watch] dev-output-2.log
+12:37:31 [watch] dev-output-2.log
+12:37:31 [watch] dev-output-2.log
+12:37:31 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:33 [200] / 221ms
+12:37:34 [watch] dev-output-2.log
+12:37:34 [watch] dev-output-2.log
+12:37:34 [watch] dev-output-2.log
+12:37:34 [watch] dev-output-2.log
+12:37:34 [watch] dev-output-2.log
+12:37:34 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+12:37:35 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:36 [200] / 148ms
+12:37:36 [watch] dev-output-2.log
+12:37:36 [watch] dev-output-2.log
+12:37:36 [watch] dev-output-2.log
+12:37:36 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:37 [watch] dev-output-2.log
+12:37:37 [watch] dev-output-2.log
+12:37:37 [200] / 554ms
+12:37:38 [watch] dev-output-2.log
+12:37:38 [watch] dev-output-2.log
+12:37:38 [watch] dev-output-2.log
+12:37:38 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:39 [200] / 117ms
+12:37:39 [watch] dev-output-2.log
+12:37:39 [watch] dev-output-2.log
+12:37:39 [watch] dev-output-2.log
+12:37:39 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:40 [200] / 84ms
+12:37:40 [watch] dev-output-2.log
+12:37:40 [watch] dev-output-2.log
+12:37:40 [watch] dev-output-2.log
+12:37:40 [watch] dev-output-2.log
+12:37:40 [watch] dev-output-2.log
+12:37:40 [watch] dev-output-2.log
+12:37:41 [watch] dev-output-2.log
+12:37:41 [watch] dev-output-2.log
+12:37:41 [watch] dev-output-2.log
+12:37:41 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:41 [200] / 259ms
+12:37:41 [watch] dev-output-2.log
+12:37:41 [watch] dev-output-2.log
+12:37:41 [watch] dev-output-2.log
+12:37:41 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:42 [watch] dev-output-2.log
+12:37:43 [watch] dev-output-2.log
+12:37:43 [watch] dev-output-2.log
+12:37:43 [watch] dev-output-2.log
+12:37:43 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:44 [200] / 116ms
+12:37:44 [watch] dev-output-2.log
+12:37:44 [watch] dev-output-2.log
+12:37:44 [watch] dev-output-2.log
+12:37:44 [watch] dev-output-2.log
+12:37:44 [watch] dev-output-2.log
+12:37:44 [watch] dev-output-2.log
+12:37:44 [watch] dev-output-2.log
+12:37:44 [watch] dev-output-2.log
+12:37:44 [404] /.well-known/appspecific/com.chrome.devtools.json 328ms
+12:37:45 [watch] dev-output-2.log
+12:37:45 [watch] dev-output-2.log
+12:37:45 [watch] dev-output-2.log
+12:37:45 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:45 [watch] dev-output-2.log
+12:37:45 [watch] dev-output-2.log
+12:37:45 [200] / 544ms
+12:37:45 [watch] dev-output-2.log
+12:37:45 [watch] dev-output-2.log
+12:37:47 [watch] src/pages/about-me.md
+12:37:47 [watch] src/pages/about-me.md
+12:37:47 [watch] dev-output-2.log
+12:37:47 [watch] dev-output-2.log
+12:37:47 [watch] dev-output-2.log
+12:37:47 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:48 [200] / 144ms
+12:37:49 [watch] dev-output-2.log
+12:37:49 [watch] dev-output-2.log
+12:37:49 [watch] src/pages/about-me.md
+12:37:49 [watch] src/pages/about-me.md
+12:37:49 [watch] dev-output-2.log
+12:37:49 [watch] dev-output-2.log
+12:37:56 [404] /.well-known/appspecific/com.chrome.devtools.json 120ms
+12:37:57 [404] /.well-known/appspecific/com.chrome.devtools.json 8ms
+12:37:57 [404] /.well-known/appspecific/com.chrome.devtools.json 5ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 7ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 6ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 5ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 8ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 13ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 5ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 6ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 5ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 6ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 6ms
+12:37:58 [404] /.well-known/appspecific/com.chrome.devtools.json 7ms
+12:37:58 [watch] dev-output-2.log
+12:37:58 [watch] dev-output-2.log
+12:37:59 [watch] dev-output-2.log
+12:37:59 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:37:59 [200] / 159ms
+12:38:00 [watch] dev-output-2.log
+12:38:00 [watch] dev-output-2.log
+12:38:00 [watch] dev-output-2.log
+12:38:00 [watch] dev-output-2.log
+12:38:00 [watch] dev-output-2.log
+12:38:00 [watch] dev-output-2.log
+12:38:00 [watch] src/pages/about-me.md
+12:38:00 [watch] src/pages/about-me.md
+12:38:01 [watch] dev-output-2.log
+12:38:01 [watch] dev-output-2.log
+12:38:01 [watch] dev-output-2.log
+12:38:01 [watch] dev-output-2.log
+12:38:01 [watch] dev-output-2.log
+12:38:01 [watch] dev-output-2.log
+12:38:01 [404] /.well-known/appspecific/com.chrome.devtools.json 324ms
+12:38:01 [watch] dev-output-2.log
+12:38:01 [watch] dev-output-2.log
+12:38:02 [watch] dev-output-2.log
+12:38:02 [watch] dev-output-2.log
+12:38:02 [watch] dev-output-2.log
+12:38:02 [watch] dev-output-2.log
+Astro.glob is 
+deprecated and will 
+be removed in a 
+future major version 
+of Astro.
+Use import.meta.glob 
+instead: https://vite
+js.dev/guide/features
+.html#glob-import
+12:38:02 [watch] dev-output-2.log
+12:38:02 [watch] dev-output-2.log
+12:38:02 [200] / 558ms
+12:38:02 [watch] dev-output-2.log
+12:38:02 [watch] dev-output-2.log
