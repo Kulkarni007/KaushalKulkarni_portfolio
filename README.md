@@ -2,7 +2,7 @@
 
 🎯 Overview
 
-This is my personal developer portfolio website, built using the NeonMint Astro template and customized to showcase my projects, skills, experience, and blog posts.
+This is my personal developer portfolio website, customized to showcase my projects, skills, experience, and blog posts.
 
 The goal of this project is simple:
 

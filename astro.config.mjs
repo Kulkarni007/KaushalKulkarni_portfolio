@@ -7,7 +7,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://neonmint.efeele.dev",
+  site: "https://kaushalkulkarni.vercel.app",
   integrations: [preact(), icon({
     include: {
       'local': '*'
