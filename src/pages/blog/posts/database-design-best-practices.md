@@ -4,7 +4,7 @@ title: Database Design Best Practices for Web Applications
 author: Kaushal Kulkarni
 description: "Learn essential database design principles and best practices for building scalable web applications. Covering normalization, indexing, relationships, and performance optimization."
 image:
-  url: "/images/posts/database-design.webp"
+  url: "/images/posts/database-design-diagram.svg"
   alt: "Database schema diagram showing tables, relationships, and indexes for a web application"
 pubDate: 2025-01-25
 tags:

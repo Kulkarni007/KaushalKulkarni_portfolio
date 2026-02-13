@@ -65,7 +65,7 @@ const { frontmatter } = Astro.props;
             </div>
 
             <p
-              class="text-lg max-xl:text-base text-blacktext dark:text-gray-200 mb-0 leading-8 font-semibold text-center"
+              class="text-lg max-xl:text-base text-blacktext dark:text-darktext mb-0 leading-8 font-semibold text-center"
             >
               <b
                 class="bg-linear-to-r from-riptide-400 to-mint-500 dark:to-mint-200 dark:from-riptide-300 text-transparent bg-clip-text"
@@ -87,7 +87,7 @@ const { frontmatter } = Astro.props;
         <Heading text="About" textGradient="Me" />
       </div>
 
-      <div class="markdown text-white" id="content">
+      <div class="markdown text-blacktext dark:text-darktext" id="content">
         <slot />
       </div>
     </article>
@@ -108,7 +108,7 @@ const { frontmatter } = Astro.props;
   <section class="py-8 px-8 max-md:py-4 mt-10 mb-20 scroll-m-16" id="stack">
     <div class="flex flex-col gap-8 max-w-3xl justify-center mx-auto">
       <div class="flex gap-4 items-center justify-center">
-        <Icon class="text-3xl text-white" name="dashboard" />
+        <Icon class="text-3xl text-blacktext dark:text-darktext" name="dashboard" />
         <Heading text="Tech" textGradient="Stack" level={2} />
       </div>
 

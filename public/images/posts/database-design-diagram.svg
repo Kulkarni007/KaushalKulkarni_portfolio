@@ -1,0 +1,135 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0f172a"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+    
+    <!-- Gradient for tables -->
+    <linearGradient id="tableGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Gradient for connections -->
+    <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#34d399;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background grid -->
+  <rect width="800" height="400" fill="url(#grid)"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    Database Design Best Practices
+  </text>
+  
+  <!-- Users Table -->
+  <g id="users-table">
+    <rect x="50" y="80" width="140" height="120" rx="8" fill="url(#tableGradient)" stroke="#10b981" stroke-width="2"/>
+    <rect x="50" y="80" width="140" height="30" rx="8" fill="#059669"/>
+    <text x="120" y="100" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">USERS</text>
+    
+    <!-- Fields -->
+    <text x="60" y="130" fill="white" font-family="monospace" font-size="11">🔑 user_id (PK)</text>
+    <text x="60" y="150" fill="white" font-family="monospace" font-size="11">📧 email</text>
+    <text x="60" y="170" fill="white" font-family="monospace" font-size="11">👤 username</text>
+    <text x="60" y="190" fill="white" font-family="monospace" font-size="11">📅 created_at</text>
+  </g>
+  
+  <!-- Orders Table -->
+  <g id="orders-table">
+    <rect x="330" y="80" width="140" height="140" rx="8" fill="url(#tableGradient)" stroke="#10b981" stroke-width="2"/>
+    <rect x="330" y="80" width="140" height="30" rx="8" fill="#059669"/>
+    <text x="400" y="100" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ORDERS</text>
+    
+    <!-- Fields -->
+    <text x="340" y="130" fill="white" font-family="monospace" font-size="11">🔑 order_id (PK)</text>
+    <text x="340" y="150" fill="white" font-family="monospace" font-size="11">🔗 user_id (FK)</text>
+    <text x="340" y="170" fill="white" font-family="monospace" font-size="11">💰 total_amount</text>
+    <text x="340" y="190" fill="white" font-family="monospace" font-size="11">📊 status</text>
+    <text x="340" y="210" fill="white" font-family="monospace" font-size="11">📅 order_date</text>
+  </g>
+  
+  <!-- Products Table -->
+  <g id="products-table">
+    <rect x="610" y="80" width="140" height="120" rx="8" fill="url(#tableGradient)" stroke="#10b981" stroke-width="2"/>
+    <rect x="610" y="80" width="140" height="30" rx="8" fill="#059669"/>
+    <text x="680" y="100" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PRODUCTS</text>
+    
+    <!-- Fields -->
+    <text x="620" y="130" fill="white" font-family="monospace" font-size="11">🔑 product_id (PK)</text>
+    <text x="620" y="150" fill="white" font-family="monospace" font-size="11">📦 name</text>
+    <text x="620" y="170" fill="white" font-family="monospace" font-size="11">💵 price</text>
+    <text x="620" y="190" fill="white" font-family="monospace" font-size="11">📊 stock_quantity</text>
+  </g>
+  
+  <!-- Order_Items Junction Table -->
+  <g id="order-items-table">
+    <rect x="330" y="280" width="140" height="100" rx="8" fill="url(#tableGradient)" stroke="#10b981" stroke-width="2"/>
+    <rect x="330" y="280" width="140" height="30" rx="8" fill="#059669"/>
+    <text x="400" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ORDER_ITEMS</text>
+    
+    <!-- Fields -->
+    <text x="340" y="330" fill="white" font-family="monospace" font-size="11">🔗 order_id (FK)</text>
+    <text x="340" y="350" fill="white" font-family="monospace" font-size="11">🔗 product_id (FK)</text>
+    <text x="340" y="370" fill="white" font-family="monospace" font-size="11">🔢 quantity</text>
+  </g>
+  
+  <!-- Relationships -->
+  <!-- Users to Orders (One-to-Many) -->
+  <path d="M 190 140 L 330 140" stroke="url(#connectionGradient)" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="260" y="130" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="10">1:N</text>
+  
+  <!-- Orders to Products (Many-to-Many via Order_Items) -->
+  <path d="M 470 150 L 610 140" stroke="url(#connectionGradient)" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <text x="540" y="140" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="10">M:N</text>
+  
+  <!-- Orders to Order_Items -->
+  <path d="M 400 220 L 400 280" stroke="url(#connectionGradient)" stroke-width="3" fill="none"/>
+  
+  <!-- Products to Order_Items -->
+  <path d="M 610 180 L 470 330" stroke="url(#connectionGradient)" stroke-width="3" fill="none"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10b981"/>
+    </marker>
+  </defs>
+  
+  <!-- Index indicators -->
+  <g id="indexes">
+    <!-- Users table index -->
+    <circle cx="170" cy="130" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+    <text x="170" y="134" text-anchor="middle" fill="#7c2d12" font-family="Arial, sans-serif" font-size="10" font-weight="bold">IDX</text>
+    
+    <!-- Orders table index -->
+    <circle cx="450" cy="130" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+    <text x="450" y="134" text-anchor="middle" fill="#7c2d12" font-family="Arial, sans-serif" font-size="10" font-weight="bold">IDX</text>
+    
+    <!-- Products table index -->
+    <circle cx="730" cy="130" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+    <text x="730" y="134" text-anchor="middle" fill="#7c2d12" font-family="Arial, sans-serif" font-size="10" font-weight="bold">IDX</text>
+  </g>
+  
+  <!-- Best Practices Labels -->
+  <g id="labels">
+    <!-- Normalization -->
+    <rect x="50" y="250" width="100" height="25" rx="12" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1"/>
+    <text x="100" y="267" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="11" font-weight="bold">3NF Normalized</text>
+    
+    <!-- Indexing -->
+    <rect x="610" y="250" width="80" height="25" rx="12" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1"/>
+    <text x="650" y="267" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Indexed</text>
+    
+    <!-- Foreign Keys -->
+    <rect x="230" y="200" width="90" height="25" rx="12" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1"/>
+    <text x="275" y="217" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Foreign Keys</text>
+  </g>
+</svg>
