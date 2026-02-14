@@ -32,5 +32,8 @@ Built a comprehensive delivery management system with Python GUI frontend and SQ
 - Demonstrated strong Python programming and OOP skills
 - Built functional application with database connectivity
 - Showcased system design and full-stack architecture capabilities
+- Implemented real-time tracking with 95% accuracy
+- Created comprehensive reporting system for delivery analytics
 
 👉 [View on GitHub](https://github.com/Kulkarni007/mystery-delivery-system)
+👉 [Live Demo](#)

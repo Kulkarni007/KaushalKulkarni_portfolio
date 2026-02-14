@@ -1,36 +1,38 @@
 ---
-const allTools = [
-  "html",
-  "javascript",
-  
-  "React",
-  
-  "python",
-  "php",
-  "django",
-  "djangorest",
-  "mysql",
-  
-  
-  
-  
-  "fastapi",
-  "restapi",
-  
-  
-  "oop",
-  "node",
-  "css",
-  "tailwind",
-  "bootstrap",
-  "git",
-  "figma",
-  "vercel",
-  "netlify",
-  "markdown",
-  "wordpress",
-  "astro",
-];
+const techStack = {
+  frontend: [
+    "html",
+    "javascript",
+    "React",
+    "css",
+    "tailwind",
+    "bootstrap",
+    "astro",
+  ],
+  backend: [
+    "python",
+    "php",
+    "django",
+    "djangorest",
+    "fastapi",
+    "restapi",
+    "node",
+  ],
+  database: [
+    "mysql",
+    "postgresql",
+    "sqlite",
+  ],
+  tools: [
+    "git",
+    "figma",
+    "vercel",
+    "netlify",
+    "markdown",
+    "wordpress",
+    "oop",
+  ],
+};
 
 import Capsule from "../ui/Capsule.astro";
 
@@ -52,5 +54,31 @@ const classes = `${baseClasses} ${variantClasses[variant as ToolVariant]}`;
 ---
 
 <div class={classes}>
-  {allTools.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
+  <div class="w-full">
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Frontend</h3>
+    <div class="flex flex-wrap gap-2 mb-4">
+      {techStack.frontend.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
+    </div>
+  </div>
+  
+  <div class="w-full">
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Backend</h3>
+    <div class="flex flex-wrap gap-2 mb-4">
+      {techStack.backend.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
+    </div>
+  </div>
+  
+  <div class="w-full">
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Database</h3>
+    <div class="flex flex-wrap gap-2 mb-4">
+      {techStack.database.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
+    </div>
+  </div>
+  
+  <div class="w-full">
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Tools</h3>
+    <div class="flex flex-wrap gap-2">
+      {techStack.tools.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
+    </div>
+  </div>
 </div>

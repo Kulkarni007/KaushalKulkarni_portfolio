@@ -1,0 +1,88 @@
+---
+import Button from "../ui/Button.astro";
+import Heading from "../ui/Heading.astro";
+import { Icon } from "astro-icon/components";
+import { getCollection } from "astro:content";
+
+const [staticData] = await getCollection("staticData");
+const {
+  email,
+  github,
+  linkedin,
+  contactSectionTitle,
+  contactSectionSubtitle,
+  contactSectionButtonText,
+} = staticData.data;
+---
+
+<section class="py-8 px-8 max-md:py-4 mb-4 scroll-m-16" id="contact">
+  <div class="flex flex-col pt-8 max-w-4xl mx-auto">
+    <div class="flex gap-4 items-center justify-center">
+      <Icon class="text-3xl dark:text-white text-blacktext" name="envelope" />
+      <Heading text="Get in" textGradient="Touch" level={2} />
+    </div>
+    
+    <div class="text-center mt-8 mb-8">
+      <h3 class="text-2xl font-bold mb-4 dark:text-white text-blacktext">{contactSectionTitle}</h3>
+      <p class="text-lg dark:text-gray-300 text-blacktext mb-8">{contactSectionSubtitle}</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 mb-8">
+      <div class="space-y-4">
+        <h4 class="text-xl font-semibold dark:text-white text-blacktext">Connect With Me</h4>
+        
+        <div class="flex flex-wrap gap-4">
+          <a href={linkedin} target="_blank" rel="noopener noreferrer" 
+             class="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            <Icon name="linkedin" class="text-xl" />
+            LinkedIn
+          </a>
+          
+          <a href={github} target="_blank" rel="noopener noreferrer"
+             class="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors">
+            <Icon name="github" class="text-xl" />
+            GitHub
+          </a>
+          
+          <a href={"mailto:" + email}
+             class="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
+            <Icon name="envelope" class="text-xl" />
+            Email
+          </a>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <h4 class="text-xl font-semibold dark:text-white text-blacktext">Send a Message</h4>
+        
+        <form action={`https://formspree.io/f/${email}`} method="POST" class="space-y-4">
+          <div>
+            <label for="name" class="block text-sm font-medium dark:text-gray-300 text-blacktext mb-1">Name</label>
+            <input type="text" id="name" name="name" required
+                   class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:text-white">
+          </div>
+          
+          <div>
+            <label for="email" class="block text-sm font-medium dark:text-gray-300 text-blacktext mb-1">Email</label>
+            <input type="email" id="email" name="email" required
+                   class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:text-white">
+          </div>
+          
+          <div>
+            <label for="message" class="block text-sm font-medium dark:text-gray-300 text-blacktext mb-1">Message</label>
+            <textarea id="message" name="message" rows="4" required
+                      class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:text-white"></textarea>
+          </div>
+          
+          <Button type="submit" text="Send Message" iconName="paperplane" variant="primary" />
+        </form>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <p class="text-sm dark:text-gray-400 text-blacktext">
+        I'm always interested in hearing about new opportunities and exciting projects!
+      </p>
+    </div>
+  </div>
+</section>
