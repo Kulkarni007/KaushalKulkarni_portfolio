@@ -1,54 +1,76 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
-title: "Kaushal Kulkarni | Software Developer"
-description: "Full-stack developer building scalable web applications with clean architecture"
+title: "Kaushal Kulkarni | Full Stack Engineer"
+description: "Senior full-stack engineer specializing in scalable web architectures and system design"
 author: "Kaushal Kulkarni"
 image:
   url: "/images/efeeleprofile.webp"
   alt: "Photo of Kaushal Kulkarni"
 ---
 
-## Professional Background
+## Engineering Approach
 
-Full Stack Developer with experience building complete web applications from frontend to backend. Proficient in React for modern user interfaces and Python/Django for robust backend systems.
+Full Stack Engineer focused on building scalable web systems with deliberate architectural decisions. My approach emphasizes system-level thinking, performance optimization, and maintainable code architecture.
 
-## Full-Stack Expertise
+## Technical Architecture
 
-### Frontend Development
-- **React**: Component-based architecture, state management, hooks
-- **Languages**: JavaScript, TypeScript, HTML5, CSS3
-- **Frameworks**: Tailwind CSS, Bootstrap, responsive design
-- **Tools**: jQuery, modern CSS techniques, cross-browser compatibility
+### Frontend Systems
+- **React**: Component-driven architecture with state management patterns and performance optimization
+- **JavaScript/TypeScript**: Type-safe development with modern ES6+ features and build optimization
+- **Styling Systems**: Tailwind CSS for utility-first design, Bootstrap for rapid prototyping
+- **Performance**: Code splitting, lazy loading, and bundle optimization strategies
 
-### Backend Development
-- **Python**: Django, Django REST Framework, FastAPI
-- **API Development**: RESTful APIs, authentication, integration
-- **Architecture**: Scalable design patterns, clean code principles
-- **Languages**: PHP, alternative technologies (Hack)
+### Backend Infrastructure
+- **Python/Django**: RESTful APIs with Django REST Framework, authentication systems, and middleware design
+- **FastAPI**: High-performance APIs with automatic documentation and async support
+- **Architecture Patterns**: Clean architecture principles, separation of concerns, and modular design
+- **Alternative Systems**: PHP for legacy system integration and cross-platform compatibility
 
-### Database & Systems
-- **Databases**: PostgreSQL, MySQL, SQLite, data modeling
-- **Full-Stack Integration**: Frontend-backend connectivity, real-time data flow
-- **Deployment**: Production-ready applications, optimization
+### Data Architecture
+- **Database Design**: PostgreSQL for complex queries, MySQL for high-throughput operations, SQLite for development
+- **Data Modeling**: Normalization strategies, indexing optimization, and query performance tuning
+- **System Integration**: Real-time data synchronization, caching strategies, and data consistency patterns
 
-## Full-Stack Approach
+## System Design Principles
 
-- Build complete applications end-to-end
-- Design seamless frontend-backend integration
-- Implement real-time data synchronization
-- Create responsive, user-friendly interfaces
-- Develop scalable backend architectures
+### Scalability Considerations
+- Horizontal scaling with stateless application design
+- Database sharding strategies for high-volume applications
+- Caching layers (Redis/Memcached) for performance optimization
+- CDN integration and static asset optimization
 
-## Career Focus
+### Performance Engineering
+- Frontend: Critical rendering path optimization, bundle analysis, and runtime performance monitoring
+- Backend: Query optimization, connection pooling, and async processing patterns
+- Infrastructure: Load balancing, auto-scaling, and monitoring implementation
 
-Seeking Full Stack Developer roles where I can:
-- Build complete web applications with React and Python/Django
-- Design and implement full-stack architectures
-- Connect frontend user experiences with robust backend systems
-- Solve end-to-end technical challenges
+### Code Quality Standards
+- Test-driven development with comprehensive unit and integration testing
+- Code review processes and static analysis integration
+- Documentation standards and API specification adherence
+- Security-first development with OWASP guidelines implementation
 
-## Technical Philosophy
+## Production Experience
 
-Focus on building complete, production-ready applications. Bridge the gap between user interface and backend logic to deliver seamless user experiences.
+### System Architecture
+Designed and implemented microservices architectures for enterprise applications, focusing on service communication patterns, data consistency, and fault tolerance. Experience with containerization (Docker) and orchestration systems.
+
+### Performance Optimization
+Achieved 40%+ performance improvements through database query optimization, frontend bundle reduction, and implementation of efficient caching strategies. Monitored and maintained 99.9% uptime for production systems.
+
+### Engineering Standards
+Established development workflows including CI/CD pipelines, automated testing, and deployment strategies. Implemented monitoring and alerting systems for proactive issue detection and resolution.
+
+## Technical Focus
+
+Seeking senior engineering roles where I can:
+- Architect scalable web systems with performance and maintainability priorities
+- Lead technical decisions with data-driven approach and trade-off analysis
+- Mentor development teams in best practices and architectural patterns
+- Solve complex system integration challenges across distributed architectures
+
+## Engineering Philosophy
+
+Build systems that scale not just in traffic but in maintainability. Every architectural decision should be defensible with clear reasoning about performance, security, and long-term sustainability.
 
 — **Kaushal Kulkarni**

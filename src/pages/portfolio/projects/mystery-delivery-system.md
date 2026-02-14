@@ -3,7 +3,7 @@ layout:  /src/layouts/ProjectLayout.astro
 title: 'Mystery Delivery System'
 pubDate: 2026-01-26
 description: 'Python-based delivery system simulation with tracking and management capabilities.'
-languages: ["python", "tkinter", "sqlite", "json", "datetime", "oop", "git"]
+languages: ["python", "sqlite", "json", "datetime", "oop", "git"]
 image:
   url: "/images/projects/mystery-delivery.webp"
   alt: "Mystery delivery system interface"

@@ -5,7 +5,7 @@ pubDate: 2025-01-04
 description: 'Personal portfolio website showcasing projects, skills, and professional experience.'
 languages: ["html", "css", "javascript", "typescript", "React", "bootstrap", "tailwind", "git", "json", "datetime", "oop"]
 image:
-  url: "/images/projects/kaushal-portfolio.webp"
+  url: "/images/projects/portfolio.png"
   alt: "Kaushal portfolio website"
 ---
 

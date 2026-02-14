@@ -55,7 +55,7 @@ const {
       <div class="space-y-4">
         <h4 class="text-xl font-semibold dark:text-white text-blacktext">Send a Message</h4>
         
-        <form action={`https://formspree.io/f/${email}`} method="POST" class="space-y-4">
+        <form id="contactForm" class="space-y-4">
           <div>
             <label for="name" class="block text-sm font-medium dark:text-gray-300 text-blacktext mb-1">Name</label>
             <input type="text" id="name" name="name" required
@@ -75,7 +75,40 @@ const {
           </div>
           
           <Button type="submit" text="Send Message" iconName="paperplane" variant="primary" />
+          <div id="formMessage" class="mt-4 text-sm hidden"></div>
         </form>
+
+        <script>
+          document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const messageDiv = document.getElementById('formMessage');
+            
+            // Get form data
+            const name = form.name.value;
+            const email = form.email.value;
+            const message = form.message.value;
+            
+            // Create email content
+            const subject = encodeURIComponent('Portfolio Contact Form - ' + name);
+            const body = encodeURIComponent(
+              `Name: ${name}\n` +
+              `Email: ${email}\n` +
+              `Message: ${message}`
+            );
+            
+            // Open email client with pre-filled data
+            const mailtoLink = `mailto:kaushalkulkarni@example.com?subject=${subject}&body=${body}`;
+            window.location.href = mailtoLink;
+            
+            // Show success message
+            messageDiv.textContent = 'Opening your email client...';
+            messageDiv.className = 'mt-4 text-sm text-green-600 dark:text-green-400';
+            messageDiv.classList.remove('hidden');
+          });
+        </script>
       </div>
     </div>
 

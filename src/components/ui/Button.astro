@@ -1,5 +1,5 @@
 ---
-type ButtonVariant = "default" | "big" | "dark";
+type ButtonVariant = "default" | "big" | "dark" | "primary";
 
 interface Props {
     link: string;
@@ -116,6 +116,22 @@ const variantClasses = {
         bg-white
         dark:hover:bg-mint-500
     `,
+    primary: `
+        text-white 
+        bg-blue-600 
+        hover:bg-blue-700 
+        px-6 
+        py-4 
+        max-xl:px-5 
+        max-sm:py-2 
+        max-sm:px-3 
+        text-lg 
+        max-xl:text-base 
+        max-sm:text-sm 
+        shadow-lg 
+        hover:shadow-xl
+        transition-all
+    `,
 };
 
 // Icon classes for each variant
@@ -123,6 +139,7 @@ const iconClasses = {
     default: "size-5",
     big: "size-5",
     dark: "size-5 dark:text-mint-300 text-blacktext group-hover:text-blacktext dark:group-hover:text-white transition-colors",
+    primary: "size-5 text-white",
 };
 
 // Combine base classes with variant-specific classes
@@ -132,7 +149,7 @@ const buttonClasses = `${baseClasses} ${variantClasses[variant]}`;
 const buttonAriaLabel = ariaLabel || (iconName ? `${text} ${iconName}` : text);
 
 // Determine if it's an external link
-const isExternalLink = isExternal || link.startsWith('http');
+const isExternalLink = isExternal || (link && link.startsWith('http'));
 
 // Additional attributes for external links
 const externalAttributes = isExternalLink ? {

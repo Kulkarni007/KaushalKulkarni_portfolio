@@ -5,7 +5,7 @@ pubDate: 2024-12-30
 description: 'A comprehensive inventory management solution for tracking and managing stock levels efficiently.'
 languages: ["php", "mysql", "sqlite", "json", "datetime", "oop", "javascript", "html", "css", "bootstrap", "git"]
 image:
-  url: "/images/projects/inventory-management1.webp"
+  url: "/images/projects/inventory-management.png"
   alt: "Inventory management system dashboard"
 ---
 

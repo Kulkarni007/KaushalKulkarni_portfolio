@@ -6,8 +6,8 @@ description: "Educational background and academic achievements"
 
 ## Education
 
-### Bachelor of Engineering in Computer Science
-**[College Name]** • Expected Graduation: 2026
+### Master of Computer Applications
+**[College Name]** •  Graduation: 2025
 
 - **Relevant Coursework**: Data Structures, Algorithms, Web Development, Database Systems, Software Engineering
 - **Academic Projects**: Full-stack web applications, database design projects, algorithm implementations

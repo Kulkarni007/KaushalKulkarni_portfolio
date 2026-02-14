@@ -11,7 +11,7 @@ const techStack = {
   ],
   backend: [
     "python",
-    "php",
+    
     "django",
     "djangorest",
     "fastapi",
@@ -20,17 +20,18 @@ const techStack = {
   ],
   database: [
     "mysql",
-    "postgresql",
+    
     "sqlite",
   ],
   tools: [
     "git",
+    "oop",
     "figma",
     "vercel",
     "netlify",
     "markdown",
     "wordpress",
-    "oop",
+    
   ],
 };
 
@@ -55,30 +56,40 @@ const classes = `${baseClasses} ${variantClasses[variant as ToolVariant]}`;
 
 <div class={classes}>
   <div class="w-full">
-    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Frontend</h3>
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Frontend Architecture</h3>
     <div class="flex flex-wrap gap-2 mb-4">
       {techStack.frontend.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
     </div>
+    <p class="text-sm text-gray-600 dark:text-gray-400 mb-6">
   </div>
   
   <div class="w-full">
-    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Backend</h3>
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Backend Infrastructure</h3>
     <div class="flex flex-wrap gap-2 mb-4">
       {techStack.backend.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
     </div>
+    <p class="text-sm text-gray-600 dark:text-gray-400 mb-6">
+      Python with Django for enterprise-grade applications and Django REST Framework for API development, FastAPI for high-performance async services,Node.js for real-time applications, and RESTful design principles for scalable API architecture.
+    </p>
   </div>
   
   <div class="w-full">
-    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Database</h3>
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Data Layer</h3>
     <div class="flex flex-wrap gap-2 mb-4">
       {techStack.database.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
     </div>
+    <p class="text-sm text-gray-600 dark:text-gray-400 mb-6">
+     MySQL for high-throughput read operations, SQLite for development and testing environments, with proper indexing strategies and query optimization for performance at scale.
+    </p>
   </div>
   
   <div class="w-full">
-    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Tools</h3>
-    <div class="flex flex-wrap gap-2">
+    <h3 class="text-lg font-semibold mb-3 dark:text-white text-blacktext">Development Tools</h3>
+    <div class="flex flex-wrap gap-2 mb-4">
       {techStack.tools.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
     </div>
+    <p class="text-sm text-gray-600 dark:text-gray-400">
+      Git for version control with branching strategies, Figma for UI/UX design collaboration, Vercel and Netlify for continuous deployment and static hosting, Markdown for documentation, WordPress for CMS integration, and OOP principles for maintainable code architecture.
+    </p>
   </div>
 </div>
