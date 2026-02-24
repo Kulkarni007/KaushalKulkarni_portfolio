@@ -13,6 +13,8 @@ const {
 } = Astro.props;
 
 const siteUrl = new URL(Astro.url).origin;
+const timestamp = Date.now();
+const twitterimage = `${siteUrl}${ogimage.url}?t=${timestamp}`;
 const SEO = {
   sitename: "Kaushal Portfolio New🚀",
   url: siteUrl,
@@ -22,7 +24,6 @@ const SEO = {
 };
 
 
-const twitterimage = `${siteUrl}${ogimage.url}`;
 ---
 
 <html
